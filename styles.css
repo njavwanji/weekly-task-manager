@@ -1,0 +1,185 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: liebeerika, sans-serif; */
+body {
+    background-color: #f4f4f2;
+    color: #cfd3ce;
+    font-family: 'Liebeerika', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #34626c;
+    font-family: 'Liebeerika', sans-serif;
+    font-size: 6rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: #34626c;
+    font-family: 'Liebeerika', sans-serif;
+    font-size: 1.95rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h4, .card-title {
+    color: #cfd3ce;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+form {
+    padding-bottom: 10px;
+}
+
+input {
+    /* font-family: '' */
+    font-size: 1.25rem;
+    padding: 1px 5px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 133px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    cursor: pointer;
+    font-size: 1.5rem;
+    list-style-type: circle;
+    list-style-position: outside;
+    line-height: 1.5;
+}
+
+li::marker {
+    font-size: 20px;
+}
+
+.completed {
+    color: #b8b8b8;
+    text-decoration: line-through 1px;
+    list-style-type: disc;
+}
+
+#text {
+    padding-right: 20px;
+}
+
+.date {
+    align-items: center;
+    align-content: center;
+    background-color: #f4f4f2;
+    border: none;
+    color: #34626c;
+    font-size: 1.95rem;
+    width: 165px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* display: none; */
+    z-index: 1;
+    margin-left: -1px;
+    width: 30px;
+}
+
+.container-fluid {
+    margin: 40px auto;
+    padding: 0;
+}
+
+.daily-entries {
+    justify-content: center;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.card {
+    background-color: #34626c;
+    margin: 0 5px;
+    width: 175px;
+    word-wrap: break-word;
+}
+
+.line-through {
+    text-decoration: line-through;
+    font-size: 1px;
+    z-index: 1;
+}
+
+.unchecked {
+    text-decoration: none;
+}
+
+/* .card {
+    width: 14%;
+    padding: 0 10px;
+} */
+/* .col-md-2 {
+    width: 14.285714285714285714285714285714%;
+} */
+.btn {
+    background-color: #cfd3ce;
+    border: none;
+    color: #34626c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: #839b97;
+    color: #cfd3ce;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #839b97;
+    opacity: 0.5;
+}
+
+/* HEADER */
+/* SUB-HEADING */
+/* DAYS OF THE WEEK */
+/* MONDAY */
+/* TITLE */
+/* CHECKLIST */
+/* CLEAR ALL BUTTON */
+/* TUESDAY */
+/* WEDNESDAY */
+/* THURSDAY */
+/* FRIDAY */
+/* SATURDAY */
+/* SUNDAY */
+/* MEDIA QUERIES */
+/* @media (min-width: 768px){
+  .daily-entries .col-md-1,
+  .daily-entries .col-sm-1,
+  .daily-entries .col-lg-1  {
+    width: 100%;
+  }
+} */
+/*
+@media (min-width: 992px) {
+  .daily-entries .col-md-1,
+  .daily-entries .col-sm-1,
+  .daily-entries .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+  }
+} */
